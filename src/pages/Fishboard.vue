@@ -85,11 +85,14 @@
 
 <style media="screen">
 
+
 #addicon {
   position: absolute;
-  bottom: 0;
-  left:50%;
-  transform: translate(-50%, -50%);
+  bottom: 30px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+
 }
 
   .size-70 { font-size: 70px }

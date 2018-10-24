@@ -5,7 +5,7 @@
         <f7-link icon-f7="icon-bars" panel-open="left"></f7-link>
       </f7-nav-left>
       <f7-nav-title>
-        <span class="size-26">온 바 다</span> &nbsp;&nbsp; </span>
+        <span class="size-26">온 바 다</span> <span>&nbsp;&nbsp; </span>
         <i class="icon f7-icons color-yellow size-10">star</i><span> &nbsp;&nbsp; </span>
         <i class="icon f7-icons color-yellow size-17">star</i> <span> &nbsp;&nbsp; </span>
         <i class="icon f7-icons color-yellow">star</i>
