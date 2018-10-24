@@ -3,6 +3,8 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Another from './pages/Another';
 import NotFoundPage from './pages/not-found.vue';
+import Login from './pages/Login'
+import Register from '@/components/Register'
 
 export default [
   {
@@ -24,5 +26,17 @@ export default [
   {
     path: '(.*)',
     component: NotFoundPage
+  },
+  {
+    path: '/login/',
+    name: 'login',
+    component: Login
+    
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: Register
+    
   }
 ];

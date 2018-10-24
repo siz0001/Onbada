@@ -4,3 +4,5 @@
 /node_modules
 /test
 /res
+/src/pages/firebaseConfig.js
+/src/pages/firebaseInit.js

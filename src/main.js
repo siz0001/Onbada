@@ -21,6 +21,13 @@ import Routes from './routes.js';
 // Import App Component
 import App from './app';
 
+
+// Import VueCordova Component
+import VueCordova from 'vue-cordova'
+Vue.use(VueCordova, {
+  optionTestKey: 'optionTestValue'
+})
+
 // Set up some useful globals
 window.isMaterial = !Framework7.device.ios;
 window.isiOS = Framework7.device.ios;
@@ -47,5 +54,10 @@ const baseApp = new Vue({
   // Register App Component
   components: {
     app: App
+  },
+  data: function () {
+    return {
+      cordova: Vue.cordova
+    }
   }
 });

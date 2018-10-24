@@ -1,27 +1,34 @@
 <template>
   <f7-panel left :reveal="isiOS" :effect="panelEffect">
-    <f7-navbar title="Menu"></f7-navbar>
+    <f7-navbar id="left-main-navbar" title="메뉴"></f7-navbar>
     <!-- force page background color to white if on iOS -->
     <f7-page :style="pageStyle">
       <f7-block-title>Links</f7-block-title>
       <f7-list>
         <f7-list-item
           link="/"
-          title="Home"
+          title="홈"
           link-view="#main-view"
           panel-close
           reload-all
         />
         <f7-list-item
-          link="/about/"
-          title="About"
+          link="/login/"
+          title="로그인"
           link-view="#main-view"
           panel-close
           reload-all
         />
         <f7-list-item
           link="/services/"
-          title="Services"
+          title="회원등록"
+          link-view="#main-view"
+          panel-close
+          reload-all
+        />
+        <f7-list-item
+          link="/aa/"
+          title="로그아웃"
           link-view="#main-view"
           panel-close
           reload-all
@@ -60,5 +67,8 @@ export default {
   .panel.panel-left {
     border-right: 1px solid #b2b2b2;
   }
+}
+#left-main-navbar{
+  background: #77a88d
 }
 </style>
